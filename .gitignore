@@ -1,0 +1,12 @@
+DATA*
+params
+*.swp
+*.swo
+*.o
+model*
+model
+outputs/
+fort*
+depend.*
+usrinp
+*.dat

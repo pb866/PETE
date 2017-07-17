@@ -1,0 +1,9 @@
+setenv MPSTZ 1024M
+setenv OMP_NUM_THREADS  2
+limit stacksize unlimited
+app setup ifc-9.1
+date
+/bin/rm model_log
+model > model_log
+date
+
